@@ -12,10 +12,12 @@ function App() {
       <h2>We are here to help you</h2>
       <h1>Just drop Your Feelings for your love.</h1>
       <h2>And the best part is we wont know your name even.</h2>
-
-      <input type="text" name="" id="" value={fieldValue} onChange={(e) => setFieldValue(e.target.value)} />
-
-      {fieldValue}
+      <form>
+        <input type="text" name="" id="" value={fieldValue} onChange={(e) => setFieldValue(e.target.value)} />
+      </form>
+      <div>
+        {fieldValue}
+      </div>
     </div>
   );
 }
